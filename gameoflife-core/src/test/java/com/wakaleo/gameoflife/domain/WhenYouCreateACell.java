@@ -26,7 +26,7 @@ public class WhenYouCreateACell {
         assertThat(Cell.LIVE_CELL.toString(), is("*"));
     }
     
-    @Test2
+    @Test
     public void aLiveCellShouldBePrintedAsAnAsterisk() {
         assertThat(Cell.LIVE_CELL.toString(), is("*"));
     }
